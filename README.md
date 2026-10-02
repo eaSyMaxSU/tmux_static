@@ -93,3 +93,12 @@ PTY support, a shell, and a writable temporary directory.
 - [musl 1.2.5](https://musl.libc.org/releases.html) (source archive used for its license notice; runtime supplied by Alpine)
 
 This is a community build, not an official tmux release artifact.
+
+## License
+
+The build scripts, Dockerfile, tests, and documentation in this repository
+are released under the [ISC License](LICENSE).
+
+The tmux binary produced by this build combines upstream works. Their notices
+are copied into `licenses/` in the release tarball: tmux (ISC), ncurses,
+libevent (BSD-3-Clause), and musl (MIT). Those terms govern the binary.
